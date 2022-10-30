@@ -137,6 +137,6 @@ textarea {
 @tailwind utilities;
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fbf8f1;
+  font-family: "Inter", sans-serif;
+  background-color: ffffff;
 }

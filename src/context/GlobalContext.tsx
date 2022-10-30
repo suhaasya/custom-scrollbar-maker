@@ -27,7 +27,7 @@ export const GlobalContextProvider = ({
   children,
 }: GlobalContextProviderProps) => {
   const [controls, setControls] = useState({
-    thumbColor: "#3469a2",
+    thumbColor: "#0066ff",
     trackColor: "#ffffff",
     widthStyle: "auto",
     width: 16,

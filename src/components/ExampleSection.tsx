@@ -5,7 +5,7 @@ function ExampleSection() {
   const { style } = useContext(GlobalContext);
   // console.log(style);
   return (
-    <div className="border-solid border border-black lg:w-1/3 overflow-y-scroll p-4 overflow-x-hidden bg-white">
+    <div className="border border-solid border-gray lg:w-1/3 overflow-y-scroll p-4 overflow-x-hidden bg-white">
       <style>{style}</style>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur vero

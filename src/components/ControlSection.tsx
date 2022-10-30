@@ -41,9 +41,9 @@ function ControlSection() {
   }, [thumbColor]);
 
   return (
-    <div className="flex flex-col justify-between border-solid border border-black lg:w-1/3 ">
+    <div className="flex flex-col justify-between border border-solid border-gray lg:w-1/3 ">
       <div className="flex items-center justify-center">
-        <h3 className="text-xl font-medium">CONTROLS</h3>
+        <h3 className="text-xl font-bold">CONTROLS</h3>
       </div>
 
       <ScrollbarThumb />
@@ -71,7 +71,7 @@ function ControlSection() {
           id=""
           value={controls.width}
           onChange={handleChange}
-          className="w-1/3  border border-solid border-b-black "
+          className="w-1/3  border-b border-solid border-black "
         />
         <span>px</span>
       </ControlMenu>
@@ -84,7 +84,7 @@ function ControlSection() {
           id=""
           defaultValue={controls.borderRadius}
           onChange={handleChange}
-          className="w-1/3  border border-solid border-b-black "
+          className="w-1/3  border-b border-solid border-black "
         />
         <span>px</span>
       </ControlMenu>
@@ -97,7 +97,7 @@ function ControlSection() {
           id=""
           defaultValue={controls.borderWidth}
           onChange={handleChange}
-          className="w-1/3  border border-solid border-b-black "
+          className="w-1/3  border-b border-solid border-black "
         />
         <span>px</span>
       </ControlMenu>
