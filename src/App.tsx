@@ -24,7 +24,10 @@ function App() {
         <ToastContainer autoClose={1500} />
         <p className="text-center text-gray ">
           Made by{" "}
-          <a href="http://" className="text-blue hover:text-blue_dark">
+          <a
+            href="https://twitter.com/suhaasya"
+            className="text-blue hover:text-blue_dark"
+          >
             @suhaasya
           </a>{" "}
           inspired from{" "}
